@@ -1,0 +1,34 @@
+{
+    "name": "dmb/particles",
+    "description": "A package that provides blade components, compatible with Laravel 6 and earlier, to compose forms in a more structured and easy way.",
+    "keywords": [
+        "dmb",
+        "particles"
+    ],
+    "homepage": "https://github.com/davidemariabusi/particles",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Maria Busi",
+            "email": "davidemaria.busi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmb\\Particles\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dmb\\Particles\\ParticlesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
